@@ -1,0 +1,341 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  color: greenyellow;
+  margin: 0;
+}
+
+body .page1 {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #5aa7be;
+}
+
+body .page1 .button-container {
+  margin: 0px auto;
+  font-size: 12px;
+}
+
+body .page1 .like {
+  width: 150px;
+  height: 150px;
+  background-image: url("./ho1-3.png");
+  background-size: cover;
+  border: none;
+  color: white;
+  padding: 80px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 8px;
+}
+
+body .page1 .dislike {
+  background-image: url("./ho2.png");
+}
+
+body .Dayoung_items_like {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff9101;
+}
+
+body .Dayoung_items_like .line_Dayoung_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  line-height: 10vh;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb1 {
+  /*배열 방식*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 13px;
+  padding-left: 200px;
+  padding-right: 200px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb1 .item {
+  /*버튼 그 자체의 모양*/
+  width: 75px;
+  height: 75px;
+  background-color: greenyellow;
+  color: greenyellow;
+  font-weight: bold;
+  border: none;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb1 .bt1:hover {
+  background-color: #ff9101;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb2 .item {
+  /*버튼 그 자체의 모양*/
+  width: 75px;
+  height: 75px;
+  background-color: greenyellow;
+  color: greenyellow;
+  font-weight: bold;
+  border: none;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb2 .bt2:hover {
+  background-color: #ff9101;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin-top: 3px;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb3 .item {
+  /*버튼 그 자체의 모양*/
+  width: 75px;
+  height: 75px;
+  background-color: greenyellow;
+  color: greenyellow;
+  font-weight: bold;
+  border: none;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb3 .bt3:hover {
+  background-color: #ff9101;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 9px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb4 .item {
+  /*버튼 그 자체의 모양*/
+  width: 75px;
+  height: 75px;
+  background-color: greenyellow;
+  color: greenyellow;
+  font-weight: bold;
+  border: none;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb4 .bt4:hover {
+  background-color: #ff9101;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb5 .item {
+  /*버튼 그 자체의 모양*/
+  width: 75px;
+  height: 75px;
+  background-color: greenyellow;
+  color: greenyellow;
+  font-weight: bold;
+  border: none;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb5 .bt5:hover {
+  background-color: #ff9101;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding: 18px;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb6 .item {
+  /*버튼 그 자체의 모양*/
+  width: 75px;
+  height: 75px;
+  background-color: greenyellow;
+  color: greenyellow;
+  font-weight: bold;
+  border: none;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb6 .bt6:hover {
+  background-color: #ff9101;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding: 25px;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb7 .item {
+  /*버튼 그 자체의 모양*/
+  width: 75px;
+  height: 75px;
+  background-color: greenyellow;
+  color: greenyellow;
+  font-weight: bold;
+  border: none;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+body .Dayoung_items_like .line_Dayoung_items.lb7 .bt7:hover {
+  background-color: #ff9101;
+}
+
+body .Dayoung_items_dislike {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-transition-duration: 3000s;
+          transition-duration: 3000s;
+}
+
+body .Dayoung_items_dislike .dislike-container {
+  width: 490px;
+  height: 490px;
+}
+
+body .Dayoung_items_dislike .dislike-container .line_Dayoung_items {
+  height: 70px;
+  display: -ms-grid;
+  display: grid;
+}
+
+body .Dayoung_items_dislike .dislike-container .line_Dayoung_items.lb1 {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+body .Dayoung_items_dislike .dislike-container .line_Dayoung_items.lb2 {
+  -ms-grid-columns: (1fr)[7];
+      grid-template-columns: repeat(7, 1fr);
+}
+
+body .Dayoung_items_dislike .dislike-container .line_Dayoung_items.lb3 {
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+}
+
+body .Dayoung_items_dislike .dislike-container .line_Dayoung_items.lb4 {
+  -ms-grid-columns: (1fr)[9];
+      grid-template-columns: repeat(9, 1fr);
+}
+
+body .Dayoung_items_dislike .dislike-container .line_Dayoung_items.lb5 {
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+}
+
+body .Dayoung_items_dislike .dislike-container .line_Dayoung_items.lb6 {
+  -ms-grid-columns: (1fr)[11];
+      grid-template-columns: repeat(11, 1fr);
+}
+
+body .Dayoung_items_dislike .dislike-container .line_Dayoung_items.lb7 {
+  -ms-grid-columns: (1fr)[9];
+      grid-template-columns: repeat(9, 1fr);
+}
+
+body .Dayoung_items_dislike .dislike-container .line_Dayoung_items .item {
+  /*버튼 그 자체의 모양*/
+  background-color: greenyellow;
+  color: greenyellow;
+  font-weight: bold;
+  border: none;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+body .Dayoung_items_dislike .dislike-container .line_Dayoung_items .item:hover {
+  background-color: green;
+}
+/*# sourceMappingURL=mid.css.map */

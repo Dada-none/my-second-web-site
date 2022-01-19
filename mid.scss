@@ -1,0 +1,240 @@
+html {
+  scroll-behavior: smooth; //safari에서는 적용이 안되는 기능
+}
+body {
+  font-family: "Roboto", "Noto Sans KR", sans-serif;
+  color: greenyellow;
+  margin: 0;
+
+  .page1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(90, 167, 190);
+
+    .button-container {
+      margin: 0px auto;
+      font-size: 12px;
+    }
+    .like {
+      width: 150px;
+      height: 150px;
+      background-image: url("./ho1-3.png");
+      background-size: cover;
+      border: none;
+      color: white;
+      padding: 80px;
+      text-align: center;
+      border-radius: 50%;
+      margin: 8px;
+    }
+    .dislike {
+      background-image: url("./ho2.png");
+    }
+  }
+  .Dayoung_items_like {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 145, 1);
+    .line_Dayoung_items {
+      display: flex;
+      text-align: center;
+      line-height: 10vh;
+      transition-duration: 1s;
+      &.lb1 {
+        /*배열 방식*/
+        display: flex;
+        padding: 13px;
+        padding-left: 200px;
+        padding-right: 200px;
+        justify-content: space-between;
+        .item {
+          /*버튼 그 자체의 모양*/
+          width: 75px;
+          height: 75px;
+          background-color: greenyellow;
+          color: greenyellow;
+          font-weight: bold;
+          border: none;
+          transition-duration: 0.1s; //hover색깔 변할때 약간 천천히 해줘서 좀 더 고급지게
+        }
+        .bt1:hover {
+          background-color: rgb(255, 145, 1);
+        }
+      }
+
+      &.lb2 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-right: 100px;
+        .item {
+          /*버튼 그 자체의 모양*/
+          width: 75px;
+          height: 75px;
+          background-color: greenyellow;
+          color: greenyellow;
+          font-weight: bold;
+          border: none;
+          transition-duration: 0.1s;
+        }
+        .bt2:hover {
+          background-color: rgb(255, 145, 1);
+        }
+      }
+      &.lb3 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 250px;
+        padding-right: 250px;
+        margin-top: 3px;
+        .item {
+          /*버튼 그 자체의 모양*/
+          width: 75px;
+          height: 75px;
+          background-color: greenyellow;
+          color: greenyellow;
+          font-weight: bold;
+          border: none;
+          transition-duration: 0.1s;
+        }
+        .bt3:hover {
+          background-color: rgb(255, 145, 1);
+        }
+      }
+      &.lb4 {
+        display: flex;
+        justify-content: space-around;
+        padding: 9px;
+        padding-left: 70px;
+        padding-right: 70px;
+        .item {
+          /*버튼 그 자체의 모양*/
+          width: 75px;
+          height: 75px;
+          background-color: greenyellow;
+          color: greenyellow;
+          font-weight: bold;
+          border: none;
+          transition-duration: 0.1s;
+        }
+        .bt4:hover {
+          background-color: rgb(255, 145, 1);
+        }
+      }
+      &.lb5 {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        .item {
+          /*버튼 그 자체의 모양*/
+          width: 75px;
+          height: 75px;
+          background-color: greenyellow;
+          color: greenyellow;
+          font-weight: bold;
+          border: none;
+          transition-duration: 0.1s;
+        }
+        .bt5:hover {
+          background-color: rgb(255, 145, 1);
+        }
+      }
+      &.lb6 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding: 18px;
+        .item {
+          /*버튼 그 자체의 모양*/
+          width: 75px;
+          height: 75px;
+          background-color: greenyellow;
+          color: greenyellow;
+          font-weight: bold;
+          border: none;
+          transition-duration: 0.1s;
+        }
+        .bt6:hover {
+          background-color: rgb(255, 145, 1);
+        }
+      }
+      &.lb7 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 130px;
+        padding-right: 130px;
+        padding: 25px;
+        .item {
+          /*버튼 그 자체의 모양*/
+          width: 75px;
+          height: 75px;
+          background-color: greenyellow;
+          color: greenyellow;
+          font-weight: bold;
+          border: none;
+          transition-duration: 0.1s;
+        }
+        .bt7:hover {
+          background-color: rgb(255, 145, 1);
+        }
+      }
+    }
+  }
+  .Dayoung_items_dislike {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transition-duration: 3000s;
+
+    .dislike-container {
+      width: 490px;
+      height: 490px;
+      .line_Dayoung_items {
+        height: 70px;
+        display: grid;
+        &.lb1 {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        &.lb2 {
+          grid-template-columns: repeat(7, 1fr);
+        }
+        &.lb3 {
+          grid-template-columns: repeat(5, 1fr);
+        }
+        &.lb4 {
+          grid-template-columns: repeat(9, 1fr);
+        }
+        &.lb5 {
+          grid-template-columns: repeat(5, 1fr);
+        }
+        &.lb6 {
+          grid-template-columns: repeat(11, 1fr);
+        }
+        &.lb7 {
+          grid-template-columns: repeat(9, 1fr);
+        }
+        .item {
+          /*버튼 그 자체의 모양*/
+          background-color: greenyellow;
+          color: greenyellow;
+          font-weight: bold;
+          border: none;
+          transition-duration: 0.1s;
+        }
+        .item:hover {
+          background-color: green; //색변화 주는 거 css에서는 안됩니다(javascript)
+        }
+      }
+    }
+  }
+}
